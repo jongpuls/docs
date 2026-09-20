@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-20T21:28:44.399970",
+  "source_folder": "D:\\code\\docs\\chores\\test_samples",
+  "output_folder": "D:\\code\\docs\\chores\\test_output",
+  "ai_model": "claude",
+  "total_files": 3,
+  "category_stats": {
+    "documents": {
+      "count": 1,
+      "total_bytes": 815
+    },
+    "web": {
+      "count": 1,
+      "total_bytes": 686
+    },
+    "presentations": {
+      "count": 1,
+      "total_bytes": 853
+    }
+  },
+  "files": [
+    {
+      "source": "D:\\code\\docs\\chores\\test_samples\\sample.docx",
+      "relative": "sample.docx",
+      "filename": "sample.docx",
+      "extension": ".docx",
+      "category": "documents",
+      "size_bytes": 815,
+      "copied_to": "D:\\code\\docs\\chores\\test_output\\documents\\sample.docx",
+      "extracted_text": "EDK2 부팅 프로세스 명세서\nSEC -> PEI -> DXE -> BDS 로 이어지는 부팅 단계 분석.\n| 단계 | 역할 |\n| SEC | 보안 및 초기화 |",
+      "has_text": true
+    },
+    {
+      "source": "D:\\code\\docs\\chores\\test_samples\\sample.html",
+      "relative": "sample.html",
+      "filename": "sample.html",
+      "extension": ".html",
+      "category": "web",
+      "size_bytes": 686,
+      "copied_to": "D:\\code\\docs\\chores\\test_output\\web\\sample.html",
+      "extracted_text": "클라우드 마이크로서비스 설계서\n  \n본 문서는 사용자 인증 및 결제 시스템의 마이크로서비스 구조를 정의합니다.\n  핵심 모듈\n  \n    \nAuth Service: JWT 기반 사용자 인증\n    \nOrder Service: 주문 생성 및 결제 연동\n    \nNotification Service: 알림 발송\n  \n  서비스 지표\n  \n    \n서비스목표 응답시간\n    \nAuth50ms\n    \nOrder100ms",
+      "has_text": true
+    },
+    {
+      "source": "D:\\code\\docs\\chores\\test_samples\\sample.pptx",
+      "relative": "sample.pptx",
+      "filename": "sample.pptx",
+      "extension": ".pptx",
+      "category": "presentations",
+      "size_bytes": 853,
+      "copied_to": "D:\\code\\docs\\chores\\test_output\\presentations\\sample.pptx",
+      "extracted_text": "[슬라이드 1] 차세대 펌웨어 아키텍처 발표\n  - 주요 발표 내용:\n  - 1. Rust 기반 UEFI 드라이버 도입\n  - 2. 보안 부팅(Secure Boot) 성능 30% 개선",
+      "has_text": true
+    }
+  ]
+}
